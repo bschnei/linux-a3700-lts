@@ -3,7 +3,7 @@
 buildarch=8
 
 pkgname=linux-a3700-lts
-pkgver=6.6.63
+pkgver=6.6.64
 pkgrel=1
 pkgdesc='Kernel and modules for Marvell Armada A3700 SoC'
 arch=(aarch64)
@@ -27,9 +27,9 @@ validpgpkeys=(
   '647F28654894E3BD457199BE38DBBDC86092693E'  # Greg Kroah-Hartman
 )
 # https://www.kernel.org/pub/linux/kernel/v6.x/sha256sums.asc
-sha256sums=('d1054ab4803413efe2850f50f1a84349c091631ec50a1cf9e891d1b1f9061835'
+sha256sums=('065fd93fa6cb422f650fb563f15d3e0107c85009f766405993d795fd39796ab1'
             'SKIP'
-            'eb1420d92ae669669a07ee5f98fe13d7d876ea3baa1cf7c6104253f26c46a1e7'
+            '92b7f03f29ee4194ff2affb51f7d3f831208ea0edd1b5c556612404173371fd8'
             'a1514b9bf05a2b25a2737971f034feb2ec650e8c9b102afac0f3c47080267e46')
 prepare() {
   cd $_srcname
